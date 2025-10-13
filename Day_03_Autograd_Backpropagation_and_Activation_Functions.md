@@ -9,9 +9,10 @@
 
 ### Introduction (30 seconds)
 
-**"Welcome to Day 3 - where PyTorch becomes magical!"**
+**"Welcome to Day 3ok greta lets make a day3 course too please , mabe we gotta teach autograd and backward and rteach what is relu function and other activations, why we use it and more , a more indepth day 3 please - where PyTorch becomes magical!"**
 
 Today we're diving into **autograd** - PyTorch's automatic differentiation engine. This is what makes deep learning possible. We'll understand:
+
 - How gradients are computed automatically
 - What backpropagation really does
 - Why activation functions are crucial
@@ -43,6 +44,7 @@ print(f"dy/dx = {x.grad}")  # Should be 2x + 2 = 2(3) + 2 = 8
 ```
 
 **What just happened?**
+
 - PyTorch built a **computational graph** tracking: `x → x² → + 2x → + 1 → y`
 - `.backward()` computed derivatives using **chain rule**
 - Result stored in `.grad` attribute
@@ -77,6 +79,7 @@ print(f"∂L/∂b = {b.grad}")    # How loss changes with b
 ```
 
 **Understanding gradients:**
+
 - Positive gradient = increasing parameter increases loss
 - Negative gradient = increasing parameter decreases loss
 - Magnitude = how sensitive loss is to that parameter
