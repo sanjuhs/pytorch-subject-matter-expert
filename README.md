@@ -27,7 +27,7 @@ This course is designed as daily 10-minute video lessons with hands-on coding ex
 - **LLM Development**: Build and fine-tune large language models
 - **Performance**: Write custom CUDA and Triton kernels for production systems
 
-## =� Prerequisites
+## Prerequisites
 
 - Basic computer literacy
 - Internet connection for Google Colab
